@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+
+
+a{
+    color: hotpink; /* COR DO LINK */
+    text-decoration: none;
+}
+a:hover{
+    color: black; /* PASSANDO O MOUSE*/
+    background-color: red;
+}
+a:active{
+    color: blueviolet; /* CLICANDO NO LINK*/
+    background-color: brown;
+}
+a:visited{ /* PESSOA VISITOU*/
+    color: green;
+}
+h1 > a{
+    color: red;
+    background-color: gold;
+    font-family: 'Pacifico', cursive;
+    
+}
+p{
+    font-family: 'Pacifico', cursive;
+}

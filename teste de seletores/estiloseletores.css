@@ -1,0 +1,19 @@
+h1{
+    color: blueviolet;
+    background-color: black;
+    text-align: center;
+
+}
+p{
+    color: blueviolet;
+    background-color: black;
+    text-align: justify;
+}
+#principal{
+    color: orange;
+    text-indent: 30px;
+}
+p.secundaria{
+    color: aqua;
+    
+}

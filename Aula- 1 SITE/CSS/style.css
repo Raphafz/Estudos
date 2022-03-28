@@ -1,0 +1,128 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@100;300&display=swap');
+/* 
+#661F00
+#E67545
+#E04300
+#61311D
+#AD3400
+*/
+:root {
+    --cor1:#661F00 ;
+    --cor2: #E67545;
+    --cor3:#E04300 ;
+    --cor4: #61311D;
+    --cor5:#AD3400;
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: var(--cor2);
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background-image: linear-gradient(to bottom,var(--cor1),var(--cor3));
+    color: white;
+    font-weight: bolder;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+    box-shadow: 1px 1px 10px black;
+}
+nav{
+    background-image: linear-gradient(to bottom,var(--cor1),var(--cor3));
+    padding: 10px;
+}
+nav > a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+}
+nav > a:hover{
+    background-color: var(--cor2);
+    color: var(--cor5);
+    
+}
+main{
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    min-width: 320px;
+    max-width: 1000px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 20px black;
+    
+}
+h2{
+    text-align: center;
+    background-image:linear-gradient( to right, var(--cor5), transparent );
+    padding: 10px;
+}
+main p{
+    font-size: 18px;
+    text-align: justify;
+    text-indent: 30px;
+    margin: 15px 7px;
+    line-height: 35px;
+}
+pre{
+    text-align: center;
+    margin-bottom: 30px;
+}
+aside{
+    background-color: var(--cor2);
+    padding: 10px;
+    border-radius: 15px 15px 15px 15px;
+    margin: 15px;
+    
+}
+aside > ul{
+    list-style-position: inside;
+    text-align: justify;
+}
+aside > h3{
+    text-align: center;
+    background-image: linear-gradient(to bottom,var(--cor1),var(--cor3));
+    border-radius: 15px 15px 0px 0px;
+    margin: -15px -10px 0px -10px;
+    color: white;
+}
+footer{
+    margin-top: 10px;
+    background-image: linear-gradient(to bottom,var(--cor1),var(--cor3));
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center;
+}
+footer > a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+img{
+    width: 30%;
+    border-style:solid;
+    border: 10px;
+    border-style: solid;
+    border-color: #61311D;
+    padding: 1px;
+}
+figcaption{
+    font-size: 14px;
+}
+iframe{
+    margin: 15px;
+    border: 10px;
+    border-style: solid;
+    border-color: #61311D;
+    padding: 1px;
+}
+
+

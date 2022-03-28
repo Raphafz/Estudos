@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de notas</title>
+</head>
+<body>
+    <H1>Cálculo de notas</H1>
+    <p>Digite a nota do trabalho: <input type="number" name="txttrabalho" id="txttrabalho"> 
+    </p>
+    <p> Digite a nota da prova: <input type="number" name="txtprova" id="txtprova">  
+    </p>
+    <input type="button" value="calcular" onclick="calcular()">
+    <p id="Resultado"id> Resultado:
+
+    </p>  
+        
+    
+        
+    
+
+
+
+    <script>
+        function calcular(){
+            var txtn1 = window.document.getElementById('txttrabalho')
+            var n1 = Number(txtn1.value)
+            var txtn2 = window.document.getElementById('txtprova')
+            var n2 = Number(txtn2.value)
+            var resultado = window.document.getElementById('Resultado')
+            var media = (n1 + n2)/2
+            
+
+            if(media>=5){
+                resultado.innerText='Aprovado'
+            }else{
+                resultado.innerText='Reprovado'
+            }
+
+
+        }
+    </script>
+</body>
+</html>
